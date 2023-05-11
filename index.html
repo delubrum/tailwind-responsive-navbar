@@ -8,20 +8,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-black">
-  <nav class="flex justify-between items-center bg-white 
-    text-black h-20 px-4"
-  >
+  <nav class="flex justify-between items-center bg-white text-black h-20 px-4">
     <div class="font-medium">🚀 LOGO</div>
-    <div class="links left-0 md:static absolute bg-white top-[-100%] 
-      md:w-auto  w-full flex items-center px-5 md:flex-row flex-col"
-    >
+    <div class="links left-0 md:static absolute bg-white top-[-100%] md:w-auto w-full flex items-center px-5 md:flex-row flex-col">
       <a href="#" class="m-2 hover:text-blue-500">Link 1</a>
       <a href="#" class="m-2 hover:text-blue-500">Link 2</a>
       <a href="#" class="m-2 hover:text-blue-500">Link 3</a>
       <a href="#" class="m-2 hover:text-blue-500">Link 4</a>
       <a href="#" class="m-2 hover:text-blue-500">Link 5</a>
     </div>
-    <div class="icons">
+    <div>
       <a href="#" class="m-2">🔔</a>
       <a href="#" class="m-2">👤</a>
       <a href="#" class="m-2">🌙</a>
@@ -34,6 +30,6 @@
 <script>
   const navLinks = document.querySelector('.links')
   function onToggleMenu(e){
-      navLinks.classList.toggle('top-[5rem]')
+    navLinks.classList.toggle('top-[5rem]')
   }
 </script>
